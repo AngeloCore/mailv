@@ -1,53 +1,50 @@
-# email-validator
+# mailv - Email Validator
+
 A simple module to validate an e-mail address
 
-[![travis build](https://img.shields.io/travis/manishsaraan/email-validator.svg?style=flat-square)](https://travis-ci.org/manishsaraan/email-validator)
-[![version](https://img.shields.io/npm/v/email-validator.svg?style=flat-square)]((http://npm.im/email-validator))
-[![downloads](https://img.shields.io/npm/dm/email-validator.svg?style=flat-square)](https://npm-stat.com/charts.html?package=email-validators&from=2015-08-01)
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/xojs/xo)
-
 ## Installation
-Install via NPM:
 
-```bash
-npm install email-validator
+npm:
+
+```sh
+npm install mailv
 
 ```
 
-[Try and install via Bit](https://bitsrc.io/manishsaraan/email-validator/email-validator)
+yarn:
 
+```sh
+yarn add mailv
+```
 
 ## Usage
 
-#### javascript
+#### JavaScript
 
-```javascript
+```js
+const mailv = require("mailv");
 
-var validator = require("email-validator");
-
-validator.validate("test@email.com"); // true
-
+mailv("test@email.com"); // true
 ```
 
 #### TypeScript
 
-```typescript
+```ts
+import mailv from "mailv";
 
-import * as EmailValidator from 'email-validator';
-
-EmailValidator.validate("test@email.com"); // true
-
-
+mailv("test@email.com"); // true
 ```
+
+## Methdods
+
+#### `check(email: string): boolean;`
 
 ## Contribute
 
-Contributions welcome! Check the ``LICENSE`` file for more info.
+Contributions welcome! Check the `LICENSE` file for more info.
 
 ## Meta
 
-* manish021js@gmail.com
+Originally created by [manish021js@gmail.com](https://github.com/manishsaraan) as [email-validator](https://npmjs.com/email-validator)
 
-Distributed under the unlicense public domain. See ``LICENSE`` for more information.
-
-[https://github.com/manishsaraan/email-validator](https://github.com/manishsaraan/email-validator)
+Distributed under the unlicense public domain. See [`LICENSE`](https://github.com/manishsaraan/email-validator/blob/master/LICENSE) for more information.

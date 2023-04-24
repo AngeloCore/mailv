@@ -1,6 +1,6 @@
 {
   "name": "mailv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validate emails.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -12,8 +12,19 @@
   "scripts": {
     "test": "mocha index.test.js"
   },
-  "author": "Angelo II",
-  "license": "MIT",
+  "author": "Manish Saraan <manish021js@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/manishsaraan/email-validator/raw/master/LICENSE"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Angelo II",
+      "url": "https://github.com/AngeloCore"
+    }
+  ],
   "devDependencies": {
     "chai": "^4.3.7",
     "mocha": "^10.2.0"
