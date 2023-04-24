@@ -1,6 +1,3 @@
-/**
- * Validate an email address.
- * @param {string} email - The email address to validate.
- * @returns {boolean}
- */
-export function validate(email: string): boolean;
+declare module "mailv" {
+  export default function check(email: string): boolean;
+}

@@ -1,48 +1,26 @@
 {
-  "name": "email-validator",
-  "version": "2.0.4",
-  "author": "Manish Saraan <manish021js@gmail.com>",
-  "description": "Provides a fast, pretty robust e-mail validator. Only checks form, not function.",
-  "main": "index",
-  "scripts": {
-    "test": "mocha test.js"
-  },
-  "typings": "index.d.ts",
-  "engines": {
-    "node": ">4.0"
-  },
-  "license": "Unlicense",
+  "name": "mailv",
+  "version": "1.0.0",
+  "description": "Validate emails.",
+  "main": "index.js",
+  "types": "index.d.ts",
   "keywords": [
     "email",
-    "validation",
-    "validator",
-    "syntax"
+    "validate",
+    "check"
   ],
-  "homepage": "http://github.com/manishsaraan/email-validator",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/manishsaraan/email-validator/raw/master/LICENSE"
-    }
-  ],
-  "contributors": [
-    {
-      "name": "Manish Saraan",
-      "email": "manish021js@gmail.com",
-      "url": "https://github.com/manishsaraan"
-    },
-    {
-      "name": "Brad Martin",
-      "email": "bradwaynemartin@gmail.com",
-      "url": "https://github.com/bradmartin"
-    }
-  ],
+  "scripts": {
+    "test": "mocha index.test.js"
+  },
+  "author": "Angelo II",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "homepage": "http://github.com/AngeloCore/mailv",
   "repository": {
     "type": "git",
-    "url": "http://github.com/manishsaraan/email-validator.git"
-  },
-  "devDependencies": {
-    "chai": "4.3.7",
-    "mocha": "10.2.0"
+    "url": "http://github.com/AngeloCore/mailv.git"
   }
 }
